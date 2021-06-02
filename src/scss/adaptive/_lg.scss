@@ -1,0 +1,14 @@
+@media (max-width: 992px) {
+  .header {
+    padding: 10px 0;
+  }
+  .header__logo {
+    flex: 0 0 160px;
+  }
+  .list__item {
+    margin-right: 18px;
+  }
+  .list__link {
+    font-size: 1.6rem;
+  }
+}

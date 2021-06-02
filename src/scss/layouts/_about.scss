@@ -1,0 +1,84 @@
+.about {
+  width: 100%;
+  &__title {
+    color: $primary;
+  }
+  &__desc {
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+  }
+  &__image {
+    position: relative;
+    z-index: 2;
+    display: block;
+    margin-top: -70px;
+  }
+  &__back-image {
+    display: block;
+    position: absolute;
+    top: -100px;
+    right: 0;
+  }
+  &__button {
+    margin-bottom: 45px;
+  }
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  width: 20%;
+  height: 274px;
+  margin: 0 15px;
+  background: #f9f9f9;
+  box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  &__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 108px;
+    height: 108px;
+    background: #afd763;
+    margin-top: 15px;
+  }
+  &__desc {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: center;
+    color: $primary;
+  }
+}
+
+.horizontal {
+  width: 86px;
+  height: 2px;
+  background: #5eb8e4;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 14px;
+}
+
+.about_night {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.about_night .about__title {
+  color: #fff;
+}
+.about_night .about__desc {
+  color: #fff;
+}
+
+.cards_night .card {
+  box-shadow: 6px 5px 20px rgba(255, 255, 255, 0.32);
+  &__icon {
+    background: $primary;
+  }
+}
