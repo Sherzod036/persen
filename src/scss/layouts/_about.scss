@@ -29,9 +29,9 @@
 }
 
 .card {
-  width: 20%;
+  width: calc(20% - 30px);
   height: 274px;
-  margin: 0 15px;
+  margin: 15px;
   background: #f9f9f9;
   box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.1);
   padding: 10px;

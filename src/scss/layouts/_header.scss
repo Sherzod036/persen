@@ -78,6 +78,9 @@
   width: 75px;
   transition: 0.3s;
   background: #fff;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
 }
 .lang {
   font-weight: 500;
@@ -91,8 +94,6 @@
   border: 1px solid #989898;
   color: #989898;
   background: #fff;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   &_current {
     cursor: pointer;
     border-radius: 5px;

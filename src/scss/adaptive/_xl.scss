@@ -2,4 +2,29 @@
   .list__item {
     margin-right: 25px;
   }
+  .hero__item {
+    padding-left: 50px;
+  }
+  .hero__image {
+    bottom: 32%;
+    left: 35px;
+  }
+  .hero__title {
+    font-size: 4rem;
+  }
+  .hero__desc {
+    font-size: 3rem;
+  }
+  .cards {
+    flex-wrap: wrap;
+  }
+  .hero {
+    height: auto;
+  }
+  .card {
+    width: calc(25% - 30px);
+  }
+  .section {
+    padding: 50px 0;
+  }
 }

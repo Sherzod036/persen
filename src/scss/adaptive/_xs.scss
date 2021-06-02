@@ -1,2 +1,14 @@
 @media (max-width: 500px) {
+  .hero__title {
+    font-size: 3rem;
+  }
+  .hero__desc {
+    font-size: 2.5rem;
+  }
+  .card {
+    width: calc(100% - 30px);
+  }
+  body {
+    font-size: 1.5rem;
+  }
 }
